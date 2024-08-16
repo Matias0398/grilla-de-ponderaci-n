@@ -1,0 +1,177 @@
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #02081630;
+
+
+  }
+
+  .header {
+    background-color: #0381C4;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 1s ease;
+  }
+
+  .header:hover {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 20px; /* Agrega espacio entre la imagen y el texto */
+  }
+
+  .header img {
+    height: 120px;
+    margin-right: 20px;
+  }
+
+  .header .h3 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    transition: all 0s ease;
+    opacity: 0;
+  }
+
+  .header:hover .h3 {
+    transform: translateX(-10px);
+    opacity: 1;
+  }
+
+  /* Estilo para la tabla */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Espacio inferior para separar de otros elementos */
+
+  }
+
+  /* Estilo para las celdas del encabezado */
+  .table th {
+    background-color: #0381C4;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .table .elemento-resultado{
+    background-color: #131516;
+  }
+
+  /* Estilo para las celdas de datos */
+  .table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: rgb(19, 20, 22, 0.09);
+  }
+
+  /* Estilo para el input */
+  .table input {
+    width: 90px;
+    text-align: center;
+  }
+
+  /* Estilo para resaltar la fila en hover */
+  .table tbody tr:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+
+  /* Animación para el input en hover */
+  .table input:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .container {
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.enviar{
+  background-color: #2E70FD;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-bottom: 15px;
+      margin-left:500px ;
+
+}
+.enviar:hover{
+    background-color: #0051FF;
+}
+
+
+
+
+
+nav {
+    background-color: #f8f9fa; /* Ajusta el color de fondo según sea necesario */
+    padding: 10px; /* Ajusta el relleno según sea necesario */
+}
+
+nav a {
+    margin-right: 15px; /* Ajusta el margen derecho entre los enlaces según sea necesario */
+    text-decoration: none; /* Elimina la subrayado predeterminada de los enlaces */
+}
+
+/*estilo del login*/
+
+    .login {
+      font-family: Arial, sans-serif;
+      background-color: #f1f5f5
+    }
+
+    .contenedor-login {
+      width: 300px;
+      margin:  auto;
+      padding: 20px;
+      background-color: #ABF5F5;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .contenedor-login label {
+      display: block;
+      margin-bottom: 4px;
+      margin-top: 30px;
+      text-align: center;
+    }
+    input:hover{
+        border-color: #3498db;
+    }
+    .contenedor-login input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      
+    }
+
+    .contenedor-login button {
+      background-color: #2E70FD;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .contenedor-login button:hover {
+      background-color: #0051FF;
+    }
+
+    .imagen-login{
+        width: 150px;
+        height: auto;
+    }
+    
